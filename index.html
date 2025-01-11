@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <link rel="stylesheet" href="styles/global.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      text-align: center;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      padding: 15px 0;
+    }
+    .search-container {
+      margin-top: 100px;
+    }
+    .search-container input {
+      padding: 12px;
+      width: 50%;
+      border: 2px solid #ccc;
+      border-radius: 25px;
+      font-size: 16px;
+      outline: none;
+    }
+    .search-container input:focus {
+      border-color: #4CAF50;
+    }
+    .search-container button {
+      padding: 12px 25px;
+      border: none;
+      background-color: #4CAF50;
+      color: white;
+      border-radius: 25px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .search-container button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Our Website</h1>
+  </header>
+
+  <div class="search-container">
+    <input type="text" placeholder="Search...">
+    <button onclick="window.location.href='login.html'">Get Started</button>
+  </div>
+
+  <script src="scripts/home.js"></script>
+</body>
+</html>
